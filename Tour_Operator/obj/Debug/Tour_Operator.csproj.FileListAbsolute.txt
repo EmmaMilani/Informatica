@@ -1,0 +1,7 @@
+C:\Users\OPT\OneDrive\Desktop\4E info\Tour_Operator\obj\Debug\Tour_Operator.csproj.AssemblyReference.cache
+C:\Users\OPT\OneDrive\Desktop\4E info\Tour_Operator\obj\Debug\Tour_Operator.csproj.CoreCompileInputs.cache
+C:\Users\OPT\OneDrive\Desktop\4E info\Tour_Operator\bin\Debug\Tour_Operator.exe.config
+C:\Users\OPT\OneDrive\Desktop\4E info\Tour_Operator\bin\Debug\Tour_Operator.exe
+C:\Users\OPT\OneDrive\Desktop\4E info\Tour_Operator\bin\Debug\Tour_Operator.pdb
+C:\Users\OPT\OneDrive\Desktop\4E info\Tour_Operator\obj\Debug\Tour_Operator.exe
+C:\Users\OPT\OneDrive\Desktop\4E info\Tour_Operator\obj\Debug\Tour_Operator.pdb
