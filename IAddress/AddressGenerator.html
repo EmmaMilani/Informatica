@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+     <!-- Bootstrap CSS -->
+     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet"
+     integrity="sha384-giJF6kkoqNQ00vy+HMDP7azOuL0xtbfIcaT9wjKHr8RbDVddVHyTfAAsrekwKmP1" crossorigin="anonymous">
+    <title>Address Generator</title>
+    <style>
+        .bg-viola{
+            background-color: #96c499;
+        }
+        .bg-rosa{
+            background-color: #4e7f51;
+        }
+        .row-div { 
+            border: 1px solid black;
+            }
+        .px {
+            padding-left: 5;
+            padding-right: 5;
+        }
+    </style>
+</head>
+<body>
+    <div class="container-fluid bg-img">
+        <div class="row">
+            <div class="col row-div" style="text-align: center; background-color: #214d23;">
+            </br></br></br>
+            <h1 style="color: #ffffff; font-family: cursive">ADDRESS GENERATOR</h1> </br> </br></br>
+             </div> 
+            </div>
+        </div>
+    </div>
+    <div class="container-fluid">
+        <div class="row">
+            <div class="col-lg-1 bg-viola"></div>
+            <div class="col-lg-10 bg-viola">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-lg-3 row-div bg-rosa">
+                            <p><strong>Menù</strong></p>
+                            <ul>
+                            <li><a style="color: black;" href="Interfaccia.html">Interfaccia</a></br></li>
+                            <li><a style="color: black;" href="Metodo1.html">Primo metodo</a></br></li>
+                            <li><a style="color: black;" href="Metodo2.html">Secondo metodo</a></br></li>
+                            </ul>
+                        </div>
+                        <div class="col-lg-9 row-div" style="background-color: white;">
+                        <h2 style="color: #214d23;">Address Generator</h2>
+                         Per questo compito si doveva costriure cona classe "AddressGenerator" che implementasse i metodi dell'interfaccia "IAddress" sotto rappresentata:<br>
+                         interface IAddress<br>
+                        {<br>
+                            string generateIPv4();<br>
+                            string generateSubnet();<br>
+                        }<br><br>
+                        <h5 style="color: #214d23;">Funzionamento</h5>
+                        Per utilizzare la classe AddressGenerator, è sufficiente crearne un'istanza e chiamare i suoi metodi 
+                        generateIPv4() e generateSubnet() per generare rispettivamente un indirizzo IPv4 dato dai 32 bit 
+                        inseriti in fase di configurazione dell’oggetto e una maschera di sottorete calcolata tramite 
+                        richiesta di CIDR da parte dell'utente.<br><br>
+                        <br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-1 bg-viola"></div>
+        </div>
+    </div>    
+</body>
+</html>

@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+    <head>
+        <meta name="viewport" content="width=devide-width, initial-scale=1">
+        <meta http-equiv="refresh" content="30">
+        <title>Secondo metodo</title>
+        <style>
+            .bg-grigio {
+                background-color: #f2f2f2;
+                }
+            .text-purple a {
+                color:#4e7f51
+            }
+            .br-rosa {
+                background-color: #96c499;
+            }
+        </style>
+         <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/css/bootstrap.min.css" integrity="sha384-TX8t27EcRE3e/ihU7zmQxVncDAy5uIKz4rEkgIXeMed4M0jlfIDPvg6uqKI2xXr2" crossorigin="anonymous">
+    </head>
+    <body>
+       <div class="container-fluid" style="background-color: #3e6d41;"><br>
+        <div class="container">
+            <div class="row">
+                <div class="container" id="testata" style="background-color:#3e6d41;">
+                    <div class="row">
+                        <div class="col-3"></div>
+                        <div class="col-6"><h1 id="titolo" style="text-align: center; padding-left: 40px; padding-top: 40px; color: #ffffff; font-size:xx-large; font-family: cursive;">Generate Subnet</h1></div>
+                        <div class="col-3"></div>
+                    </div>
+                </div>
+            </div>
+        </div><br>
+        </div>
+        
+    </div>
+    <div class="container" id="testata">
+        <div class="container"><br>
+            <div class="row">
+                <div class="col-12 col-lg-3 pt-3 pb-3 br-rosa" id="corpo-sinistra">
+                    <ul>
+                        <li><a style="color: black;" href="AddressGenerator.html">Homepage</a></li>
+                        <li><a style="color: black;" href="Interfaccia.html">Interfaccia</a></li>
+                        <li><a style="color: black;" href="Metodo1.html">Primo metodo</a></li>
+                        <li><strong>Secondo metodo</strong></li>
+                    </ul>
+                </div>
+                <div class="col-12 col-lg-6 pt-3 pb-3" id="corpo-centro">
+                    <div class="col-12">
+                        <h3 style="color: #214d23;">GenerateSubnet()</h3>
+                        Il metodo "generateSubnet()" dichiarato nell'interfaccia "IAddress" restituisce una stringa che rappresenta una subnet valida.<br>
+                        l'utente deve inserire il valore CIDR della subnet da terminale.<br>
+                        Il CIDR (Classless Inter-Domain Routing) è un sistema di numerazione utilizzato per specificare la lunghezza 
+                        della maschera di sottorete, che indica quanti bit dell'indirizzo IP sono utilizzati per identificare la 
+                        sottorete.<br>
+                        Ad esempio, una maschera di sottorete di lunghezza 24 corrisponde a una subnet che utilizza i primi 24 
+                        bit dell'indirizzo IP.<br><br>
+                        La funzione "generateSubnet()" verifica che il valore CIDR inserito dall'utente sia valido 
+                        (ad esempio, che sia compreso tra 0 e 32). Successivamente, la funzione calcola la subnet in base al 
+                        valore CIDR utilizzando un ciclo for e una serie di operazioni bitwise.<br><br>
+                        Infine, la funzione restituisce la subnet calcolata come una stringa.<br>
+                        È importante notare che la subnet restituita da questa funzione sarà sempre espressa in notazione 
+                        decimale puntata (es. "255.255.255.0"), poiché questa è la forma standard per rappresentare le maschere 
+                        di sottorete IPv4.<br><br>
+                        <h5 style="color: #214d23;">Rappresentazione in C#:</h5>
+                        string generateSubnet();<br><br>
+                        <br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
+                    </div>
+                    <div class="col-12" bg-grigio>
+                    </div> <br>
+                </div>
+                    <div class="col-12 col-lg-3 pt-3 pb-3 br-rosa" id="corpo-destra">
+                     <div class="col-12 pb-3 mb-5">
+                    <br><br><br>
+                     </div>
+                    </div>
+            </div>
+         </div>
+         <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/js/bootstrap.bundle.min.js"
+            integrity="sha384-ygbV9kiqUc6oa4msXn9868pTtWMgiQaeYH7/t7LECLbyPA2x65Kgf80OJFdroafW"
+            crossorigin="anonymous">
+        </script>
+ 
+    </body>
+</html>

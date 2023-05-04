@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+    <head>
+        <meta name="viewport" content="width=devide-width, initial-scale=1">
+        <meta http-equiv="refresh" content="30">
+        <title>Interfaccia</title>
+        <style>
+            .bg-grigio {
+                background-color: #f2f2f2;
+                }
+            .text-purple a {
+                color:#4e7f51
+            }
+            .br-rosa {
+                background-color: #96c499;
+            }
+        </style>
+         <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/css/bootstrap.min.css" integrity="sha384-TX8t27EcRE3e/ihU7zmQxVncDAy5uIKz4rEkgIXeMed4M0jlfIDPvg6uqKI2xXr2" crossorigin="anonymous">
+    </head>
+    <body>
+       <div class="container-fluid" style="background-color: #3e6d41;"><br>
+        <div class="container">
+            <div class="row">
+                <div class="container" id="testata" style="background-color:#3e6d41;">
+                    <div class="row">
+                        <div class="col-3"></div>
+                        <div class="col-6"><h1 id="titolo" style="text-align: center; padding-left: 40px; padding-top: 40px; color: #ffffff; font-size:xx-large; font-family: cursive;">Interfaccia</h1></div>
+                        <div class="col-3"></div>
+                    </div>
+                </div>
+            </div>
+        </div><br>
+        </div>
+        
+    </div>
+    <div class="container" id="testata">
+        <div class="container"><br>
+            <div class="row">
+                <div class="col-12 col-lg-3 pt-3 pb-3 br-rosa" id="corpo-sinistra">
+                    <ul>
+                        <li><a style="color: black;" href="AddressGenerator.html">Homepage</a></li>
+                        <li><strong>Interfaccia</strong></li>
+                        <li><a style="color: black;" href="Metodo1.html">Primo metodo</a></li>
+                        <li><a style="color: black;" href="Metodo2.html">Secondo metodo</a></li>
+                    </ul>
+                </div>
+                <div class="col-12 col-lg-6 pt-3 pb-3" id="corpo-centro">
+                    <div class="col-12">
+                        <h3 style="color: #214d23;">IAddress</h3>
+                        Questo è il codice di una interfaccia denominata "IAddress" che specifica due metodi: "generateIPv4()" e "generateSubnet()".<br>
+                        La prima funzione, "generateIPv4()", restituisce una stringa che rappresenta un indirizzo IPv4 valido. 
+                        Gli indirizzi IPv4 sono un sistema di numerazione utilizzato per identificare dispositivi su una rete informatica.<br> 
+                        Un esempio di indirizzo IPv4 potrebbe essere "192.168.1.1".<br><br>
+                        La seconda funzione, "generateSubnet()", restituisce una stringa che rappresenta una subnet valida. 
+                        Una subnet è un sottoinsieme di una rete informatica più grande che è stata divisa per facilitare la 
+                        gestione del traffico di rete.<br>
+                        Un esempio di subnet potrebbe essere "255.255.255.0".<br><br>
+                        Questa interfaccia potrebbe essere utilizzata come parte di un'implementazione di un sistema 
+                        di gestione delle reti, dove le classi che implementano questa interfaccia devono fornire una propria 
+                        implementazione dei metodi "generateIPv4()" e "generateSubnet()" in modo da poter creare indirizzi IP e 
+                        subnet personalizzati.<br><br>
+                        <h5 style="color: #214d23;">Rappresentazione in C#:</h5>
+                        interface IAddress<br>
+                        {<br>
+                            string generateIPv4();<br>
+                            string generateSubnet();<br>
+                        }<br><br>
+                        <br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
+                    </div>
+                    <div class="col-12" bg-grigio>
+                    </div> <br>
+                </div>
+                    <div class="col-12 col-lg-3 pt-3 pb-3 br-rosa" id="corpo-destra">
+                     <div class="col-12 pb-3 mb-5">
+                    <br><br><br>
+                     </div>
+                    </div>
+            </div>
+         </div>
+         <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/js/bootstrap.bundle.min.js"
+            integrity="sha384-ygbV9kiqUc6oa4msXn9868pTtWMgiQaeYH7/t7LECLbyPA2x65Kgf80OJFdroafW"
+            crossorigin="anonymous">
+        </script>
+    </body>
+</html>
