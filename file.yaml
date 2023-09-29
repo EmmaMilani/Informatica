@@ -1,0 +1,14 @@
+---
+ studenti: 
+    - nome: emma 
+      cognome: pilotto 
+      telefono: 
+        - 3405623987 
+        - 3406952456 
+        - 3659841256 
+    - nome: daniel 
+      cognome: targa 
+      telefono: 
+        - 3405623983 
+        - 3406952452 
+        - 3659841251
